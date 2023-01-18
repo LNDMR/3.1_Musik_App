@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="?attr/colorPrimaryVariant">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar2"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:background="?attr/colorPrimary"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/tv_toolbarDetail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/play_from_playlist"
+                android:textAlignment="center"
+                android:textColor="?attr/colorOnPrimary"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="122dp"
+                tools:layout_editor_absoluteY="14dp" />
+        </androidx.appcompat.widget.Toolbar>
+
+        <ImageView
+            android:id="@+id/iv_coverDetail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:background="?attr/colorPrimary"
+            android:contentDescription="@string/cover"
+            android:padding="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/toolbar2"
+            app:srcCompat="@drawable/cover_1" />
+
+        <TextView
+            android:id="@+id/tv_titleDetail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Das beste Lied der Welt"
+            android:textColor="?attr/colorOnPrimary"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/imageButton"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/iv_coverDetail"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/btn_share"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="?attr/colorSecondary"
+            android:paddingHorizontal="24dp"
+            android:paddingVertical="13dp"
+            android:text="@string/share_btn"
+            android:textColor="?attr/colorOnSecondary"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton" />
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:backgroundTint="@color/SI_transparent"
+            android:scaleType="fitCenter"
+            app:layout_constraintBottom_toTopOf="@+id/btn_share"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_titleDetail"
+            app:srcCompat="@drawable/ic_play"
+            android:contentDescription="@string/play" />
+
+        <ImageButton
+            android:id="@+id/ib_next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/SI_transparent"
+            app:layout_constraintBottom_toBottomOf="@+id/imageButton"
+            app:layout_constraintStart_toEndOf="@+id/imageButton"
+            app:layout_constraintTop_toTopOf="@+id/imageButton"
+            app:srcCompat="@drawable/ic_next"
+            android:contentDescription="@string/next" />
+
+        <ImageButton
+            android:id="@+id/ib_previous"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/SI_transparent"
+            app:layout_constraintBottom_toBottomOf="@+id/imageButton"
+            app:layout_constraintEnd_toStartOf="@+id/imageButton"
+            app:layout_constraintTop_toTopOf="@+id/imageButton"
+            app:srcCompat="@drawable/ic_previous"
+            android:contentDescription="@string/previous" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

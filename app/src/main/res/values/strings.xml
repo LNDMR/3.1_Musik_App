@@ -1,0 +1,51 @@
+<resources>
+    <!-- app name -->
+    <string name="app_name">MusikApp</string>
+
+    <!-- song titles-->
+    <string name="songTitle1">Smells Like Teen Spirit</string>
+    <string name="songTitle2">Billie Jean</string>
+    <string name="songTitle3">Stayin’ Alive</string>
+    <string name="songTitle4">I Will Survive</string>
+    <string name="songTitle5">Whole Lotta Love</string>
+    <string name="songTitle6">Sweet Child O’Mine</string>
+    <string name="songTitle7">Scream And Shout</string>
+    <string name="songTitle8">Santeria</string>
+    <string name="songTitle9">Alright</string>
+    <string name="songTitle10">Thrift Shop</string>
+    <string name="songTitle11">Blurred Lines</string>
+    <string name="songTitle12">Stairway To Heaven</string>
+    <string name="songTitle13">Iron Man</string>
+    <string name="songTitle14">September</string>
+    <string name="songTitle15">Come As You Are</string>
+    <string name="songTitle16">Welcome To The Jungle</string>
+    <string name="songTitle17">Mirrors</string>
+    <string name="songTitle18">Let’s Groove</string>
+    <string name="songTitle19">Despacito</string>
+    <string name="songTitle20">Kashmir</string>
+    <string name="songTitle21">War Pigs</string>
+    <string name="songTitle22">Shake Your Groove Thing</string>
+    <string name="songTitle23">Jailhouse Rock</string>
+    <string name="songTitle24">Hey Jude</string>
+    <string name="songTitle25">New York, New York</string>
+    <string name="songTitle26">I Shot The Sheriff</string>
+    <string name="songTitle27">Chop Suey</string>
+    <string name="songTitle28">American Pie</string>
+    <string name="songTitle29">Buffalo Soldier</string>
+    <string name="songTitle30">Come Together</string>
+
+    <!-- UI -->
+    <string name="playlist_name">Die beste Playlist der Welt</string>
+    <string name="created_by">erstellt von MusikKenner42</string>
+    <string name="play_from_playlist">Spiele aus Playlist:\nDie beste Playlist der Welt</string>
+    <string name="share_btn">Teile diesen Song</string>
+
+    <!-- Content Descritions -->
+    <string name="account">Konto</string>
+    <string name="app_icon">App Logo</string>
+    <string name="cover">Cover</string>
+    <string name="play">play</string>
+    <string name="next">Nächster Song</string>
+    <string name="previous">Vorheriger Song</string>
+
+</resources>
